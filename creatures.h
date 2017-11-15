@@ -14,7 +14,7 @@ struct Cost {
 };
 
 struct Creatures {
-  string creatureName, creatureDescription, creatureLocation;
+	string creatureName, creatureDescription, creatureLocation;
 	double avgLength, avgHeight;
 	bool creatureThreat;
 	Cost creatureCost;
